@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1790801274836,
+    "fullName": "الايهم اليعري",
+    "email": "alayhamsalehalyaari@gmail.com",
+    "password": "123456",
+    "role": "student",
+    "createdAt": "2026-09-30T20:47:54.836Z",
+    "grade": "21"
+  },
+  {
+    "id": 1790801330737,
+    "fullName": "عواد اليعري",
+    "email": "Awad@gmail.com",
+    "password": "12345678",
+    "role": "teacher",
+    "createdAt": "2026-09-30T20:48:50.737Z"
+  }
+]
