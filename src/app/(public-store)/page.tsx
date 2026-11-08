@@ -1,7 +1,7 @@
 import React from 'react';
-import GuestHeader from '../../features/landing/components/GuestHeader';
-import HeroSearchSection from '../../features/landing/components/HeroSearchSection';
-import MainCategoriesSection from '../../features/landing/components/MainCategoriesSection';
+import GuestHeader from '../../Components/shared/GuestHeader';
+import HeroSearchSection from '../HeroSearchSection';
+import MainCategoriesSection from '../MainCategoriesSection';
 export default function GuestLandingPage() {
   return (
     <div className="min-h-screen flex flex-col bg-[#F4F6F9]">

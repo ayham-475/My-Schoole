@@ -77,3 +77,4 @@ export interface NavItem {
   href: string;
   isExternal?: boolean;
 }
+

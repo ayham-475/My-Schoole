@@ -1,5 +1,5 @@
 import React from 'react';
-import { CategoryId } from "../data/landingData"
+import { CategoryId } from "../../features/data/landingData"
 
 export function CategoryIcon({ id }: { id: CategoryId }) {
   switch (id) {

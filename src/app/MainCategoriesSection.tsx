@@ -3,9 +3,9 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { ChevronLeft } from 'lucide-react';
-import { MAIN_CATEGORIES } from '../data/landingData';
-import { CategoryId } from '../data/landingData'
-import { CategoryIcon } from './CategoryIcons';
+import { MAIN_CATEGORIES } from '../features/data/landingData';
+import { CategoryId } from '../features/data/landingData'
+import { CategoryIcon } from '../Components/shared/CategoryIcons';
 
 export default function MainCategoriesSection() {
   const [activeCategory, setActiveCategory] = useState<CategoryId>('engines');

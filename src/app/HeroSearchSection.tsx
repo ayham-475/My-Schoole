@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { Search, ChevronDown, Plus, Check, Tag, Headphones } from 'lucide-react';
-import { VEHICLE_FILTERS, TRUST_FEATURES } from '../data/landingData';
+import { VEHICLE_FILTERS, TRUST_FEATURES } from '../features/data/landingData'
 
 export default function HeroSearchSection() {
   const [searchQuery, setSearchQuery] = useState('');

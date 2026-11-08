@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { CategoryIcon } from "../features/landing/components/CategoryIcons";
-import HeroSearchSection from "../features/landing/components/HeroSearchSection";
-import MainCategoriesSection from "../features/landing/components/MainCategoriesSection";
-import GuestHeader from "../features/landing/components/GuestHeader";
+import { CategoryIcon } from "../Components/shared/CategoryIcons";
+import HeroSearchSection from "./HeroSearchSection";
+import MainCategoriesSection from "./MainCategoriesSection";
+import GuestHeader from "../Components/shared/GuestHeader";
 export default function Home() {
  
   return (

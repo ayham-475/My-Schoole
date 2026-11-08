@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { ShoppingCart } from 'lucide-react';
-import { GUEST_NAV_ITEMS } from '../data/landingData';
+import { GUEST_NAV_ITEMS } from '../../features/data/landingData';
 
 export default function GuestHeader() {
   return (
